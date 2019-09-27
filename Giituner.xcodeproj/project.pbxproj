@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76F57D96983F713D57E42E45 /* Pods_GiitunerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD851FC9F175A2C911FD8CCF /* Pods_GiitunerUITests.framework */; };
 		B01230D5233C4C2200148F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01230D4233C4C2200148F4A /* AppDelegate.swift */; };
 		B01230D7233C4C2200148F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01230D6233C4C2200148F4A /* ViewController.swift */; };
 		B01230DA233C4C2200148F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01230D8233C4C2200148F4A /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		B01230DF233C4C2300148F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01230DD233C4C2300148F4A /* LaunchScreen.storyboard */; };
 		B01230EA233C4C2300148F4A /* GiitunerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01230E9233C4C2300148F4A /* GiitunerTests.swift */; };
 		B01230F5233C4C2300148F4A /* GiitunerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01230F4233C4C2300148F4A /* GiitunerUITests.swift */; };
+		B09E3619233D6CA600950821 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E3618233D6CA600950821 /* Notes.swift */; };
+		F4864C8516B1DB970FDB4332 /* Pods_GiitunerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0840EACF7421A8029BD5741 /* Pods_GiitunerTests.framework */; };
+		FA1CEB0CE3CC636AAB9F3E76 /* Pods_Giituner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666249D9C4BAA559857CD330 /* Pods_Giituner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273997DB99140A1A45BF07D6 /* Pods-GiitunerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiitunerTests.debug.xcconfig"; path = "Target Support Files/Pods-GiitunerTests/Pods-GiitunerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5467E0853899F80E9D70636D /* Pods-GiitunerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiitunerUITests.debug.xcconfig"; path = "Target Support Files/Pods-GiitunerUITests/Pods-GiitunerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		666249D9C4BAA559857CD330 /* Pods_Giituner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Giituner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A0E91211C753D425D4F90D /* Pods-GiitunerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiitunerTests.release.xcconfig"; path = "Target Support Files/Pods-GiitunerTests/Pods-GiitunerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB2EC0D0AE083D1AAFDE81A /* Pods-GiitunerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiitunerUITests.release.xcconfig"; path = "Target Support Files/Pods-GiitunerUITests/Pods-GiitunerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0840EACF7421A8029BD5741 /* Pods_GiitunerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiitunerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD851FC9F175A2C911FD8CCF /* Pods_GiitunerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiitunerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01230D1233C4C2200148F4A /* Giituner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giituner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01230D4233C4C2200148F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B01230D6233C4C2200148F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		B01230F0233C4C2300148F4A /* GiitunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiitunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01230F4233C4C2300148F4A /* GiitunerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiitunerUITests.swift; sourceTree = "<group>"; };
 		B01230F6233C4C2300148F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09E3618233D6CA600950821 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		E96EBDBBF24BCBA3C215E83F /* Pods-Giituner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giituner.debug.xcconfig"; path = "Target Support Files/Pods-Giituner/Pods-Giituner.debug.xcconfig"; sourceTree = "<group>"; };
+		F115B3CD5998B8BC347A3F87 /* Pods-Giituner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giituner.release.xcconfig"; path = "Target Support Files/Pods-Giituner/Pods-Giituner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1CEB0CE3CC636AAB9F3E76 /* Pods_Giituner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4864C8516B1DB970FDB4332 /* Pods_GiitunerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F57D96983F713D57E42E45 /* Pods_GiitunerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56887D941E2B707436ADFE1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				666249D9C4BAA559857CD330 /* Pods_Giituner.framework */,
+				A0840EACF7421A8029BD5741 /* Pods_GiitunerTests.framework */,
+				AD851FC9F175A2C911FD8CCF /* Pods_GiitunerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		701F01FD4F9BCA265F0D9921 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E96EBDBBF24BCBA3C215E83F /* Pods-Giituner.debug.xcconfig */,
+				F115B3CD5998B8BC347A3F87 /* Pods-Giituner.release.xcconfig */,
+				273997DB99140A1A45BF07D6 /* Pods-GiitunerTests.debug.xcconfig */,
+				71A0E91211C753D425D4F90D /* Pods-GiitunerTests.release.xcconfig */,
+				5467E0853899F80E9D70636D /* Pods-GiitunerUITests.debug.xcconfig */,
+				9DB2EC0D0AE083D1AAFDE81A /* Pods-GiitunerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B01230C8233C4C2200148F4A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				B01230E8233C4C2300148F4A /* GiitunerTests */,
 				B01230F3233C4C2300148F4A /* GiitunerUITests */,
 				B01230D2233C4C2200148F4A /* Products */,
+				701F01FD4F9BCA265F0D9921 /* Pods */,
+				56887D941E2B707436ADFE1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,7 @@
 				B01230DB233C4C2300148F4A /* Assets.xcassets */,
 				B01230DD233C4C2300148F4A /* LaunchScreen.storyboard */,
 				B01230E0233C4C2300148F4A /* Info.plist */,
+				B09E3618233D6CA600950821 /* Notes.swift */,
 			);
 			path = Giituner;
 			sourceTree = "<group>";
@@ -132,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01230F9233C4C2300148F4A /* Build configuration list for PBXNativeTarget "Giituner" */;
 			buildPhases = (
+				0B7EF0AA5C00E89894CAD695 /* [CP] Check Pods Manifest.lock */,
 				B01230CD233C4C2200148F4A /* Sources */,
 				B01230CE233C4C2200148F4A /* Frameworks */,
 				B01230CF233C4C2200148F4A /* Resources */,
@@ -149,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01230FC233C4C2300148F4A /* Build configuration list for PBXNativeTarget "GiitunerTests" */;
 			buildPhases = (
+				E4EA68745BACDFE1E067F38C /* [CP] Check Pods Manifest.lock */,
 				B01230E1233C4C2300148F4A /* Sources */,
 				B01230E2233C4C2300148F4A /* Frameworks */,
 				B01230E3233C4C2300148F4A /* Resources */,
@@ -167,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01230FF233C4C2300148F4A /* Build configuration list for PBXNativeTarget "GiitunerUITests" */;
 			buildPhases = (
+				8FBA432FA7A88BE4455CD093 /* [CP] Check Pods Manifest.lock */,
 				B01230EC233C4C2300148F4A /* Sources */,
 				B01230ED233C4C2300148F4A /* Frameworks */,
 				B01230EE233C4C2300148F4A /* Resources */,
@@ -251,6 +297,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B7EF0AA5C00E89894CAD695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Giituner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBA432FA7A88BE4455CD093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiitunerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4EA68745BACDFE1E067F38C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiitunerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B01230CD233C4C2200148F4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +373,7 @@
 			files = (
 				B01230D7233C4C2200148F4A /* ViewController.swift in Sources */,
 				B01230D5233C4C2200148F4A /* AppDelegate.swift in Sources */,
+				B09E3619233D6CA600950821 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +546,7 @@
 		};
 		B01230FA233C4C2300148F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96EBDBBF24BCBA3C215E83F /* Pods-Giituner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +565,7 @@
 		};
 		B01230FB233C4C2300148F4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F115B3CD5998B8BC347A3F87 /* Pods-Giituner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +584,7 @@
 		};
 		B01230FD233C4C2300148F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273997DB99140A1A45BF07D6 /* Pods-GiitunerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +606,7 @@
 		};
 		B01230FE233C4C2300148F4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A0E91211C753D425D4F90D /* Pods-GiitunerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +628,7 @@
 		};
 		B0123100233C4C2300148F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5467E0853899F80E9D70636D /* Pods-GiitunerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +649,7 @@
 		};
 		B0123101233C4C2300148F4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB2EC0D0AE083D1AAFDE81A /* Pods-GiitunerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
